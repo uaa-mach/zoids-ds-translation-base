@@ -9,35 +9,35 @@ cmds = [
 		'python scripts/arm_text_compress.py',
 		'source/root/ftc/arm9.bin',
 		'0x2000000',
-		'source/root/ftc/arm9.bin.pointers.txt',
+		'translated/root/ftc/arm9.bin.strings.txt',
 		'translated/root/ftc/arm9.bin'
 	],
 	[
-		'python scripts/arm_text_extract.py',
+		'python scripts/arm_text_compress.py',
 		'source/root/ftc/overlay9_0',
 		'0x22982A0',
-		'source/root/ftc/overlay9_0.pointers.txt',
+		'translated/root/ftc/overlay9_0.strings.txt',
 		'translated/root/ftc/overlay9_0'
 	],
 	[
-		'python scripts/arm_text_extract.py',
+		'python scripts/arm_text_compress.py',
 		'source/root/ftc/overlay9_1',
 		'0x22982A0',
-		'source/root/ftc/overlay9_1.pointers.txt',
+		'translated/root/ftc/overlay9_1.strings.txt',
 		'translated/root/ftc/overlay9_1'
 	],
 	[
-		'python scripts/arm_text_extract.py',
+		'python scripts/arm_text_compress.py',
 		'source/root/ftc/overlay9_2',
 		'0x22982A0',
-		'source/root/ftc/overlay9_2.pointers.txt',
+		'translated/root/ftc/overlay9_2.strings.txt',
 		'translated/root/ftc/overlay9_2'
 	],
 	[
-		'python scripts/arm_text_extract.py',
+		'python scripts/arm_text_compress.py',
 		'source/root/ftc/overlay9_3',
 		'0x22982A0',
-		'source/root/ftc/overlay9_3.pointers.txt',
+		'translated/root/ftc/overlay9_3.strings.txt',
 		'translated/root/ftc/overlay9_3'
 	],
 ]
